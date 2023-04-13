@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>AssistantApps Financials</title>
+	<link href="/assets/css/halfmoon-variables.css" rel="stylesheet" />
+	<link href="/assets/css/custom.css" rel="stylesheet" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@200;300;400;500;700&display=swap"
+		rel="stylesheet">
+
+	<style>
+		:root {
+			--assistantapps-font-family: 'Anuphan', sans-serif;
+		}
+	</style>
+	<script>
+		window.config = {
+			assistantAppsImgRoot: 'https://webcomp.assistantapps.com',
+		}
+	</script>
+</head>
+
+<body class="dark-mode with-custom-webkit-scrollbars with-custom-css-scrollbars">
+	<div class="page-wrapper with-navbar with-sidebar">
+
+		<nav class="navbar">
+			<div class="navbar-content">
+				<button class="btn btn-action" type="button" onclick="halfmoon.toggleSidebar()">☰</button>
+			</div>
+			<a href="#" class="navbar-brand">
+				<img src="/assets/img/logo-sm.png" alt="AssistantApps logo" />
+				<div class="pl-10">
+					AssistantApps
+				</div>
+			</a>
+			<ul class="navbar-nav d-none d-md-flex">
+				<li class="nav-item active">
+					<a href="https://assistantapps.com" class="nav-link" target="_blank">Homepage</a>
+				</li>
+				<li class="nav-item">
+					<a href="https://docs.assistantapps.com" class="nav-link" target="_blank">Docs</a>
+				</li>
+				<li class="nav-item">
+					<a href="https://tools.assistantapps.com" class="nav-link" target="_blank">Tools</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="sidebar">
+			<div class="sidebar-menu">
+				<h5 class="sidebar-title">Getting started</h5>
+				<div class="sidebar-divider"></div>
+				<a href="#intro" class="sidebar-link active">Intro</a>
+				<a href="#breakdown" class="sidebar-link">Cost breakdown</a>
+				<a href="#cost-saving-strats" class="sidebar-link">Cost saving strategies</a>
+				<a href="#donations" class="sidebar-link">Donation Options</a>
+				<br />
+				<h5 class="sidebar-title">Our other sites</h5>
+				<div class="sidebar-divider"></div>
+				<a href="https://docs.assistantapps.com" class="sidebar-link" target="_blank">Docs</a>
+				<a href="https://tools.assistantapps.com" class="sidebar-link" target="_blank">Tools</a>
+				<a href="https://assistantapps.com/discord" class="sidebar-link" target="_blank">Discord</a>
+			</div>
+		</div>
+
+		<!-- Content wrapper -->
+		<div class="content-wrapper">
+			<div class="container-fluid">
+				<div class="content">
+					<h3 id="intro">Financials</h3>
+					<i>
+						This web page details the expenses of
+						<a href="https://assistantapps.com" target="_blank" rel="noopener noreferrer">
+							AssistantApps
+						</a>
+						. This information is made available in the spirit of open source
+						transparency.
+						<br />
+						If you want more information,
+						<a href="https://assistantapps.com/patreon">Join the Patron</a>
+						😉
+					</i>
+
+					<br />
+					<br />
+					<div class="sidebar-divider"></div>
+
+					<div class="row">
+						<div class="col-12">
+							<p>
+								The main categories of expenses are from hosting costs. While
+								we try to keep costs low by using free services and/or
+								building whatever we need ourselves, there are unavoidable
+								benefits from using the cloud (someone else's machine)
+							</p>
+						</div>
+					</div>
+					<div id="categories" class="row">
+						<div class="col-12 col-lg-4 col-md-12 p-5">
+							<div class="card sponsor-section-card w-350 mw-full m-0 p-0 d-flex">
+								<div class="w-100 h-100 m-10 align-self-center">
+									<div class="w-100 h-100 rounded d-flex align-items-center justify-content-center">
+										<img src="/assets/img/vps.png" class="w-100 h-100 rounded" alt="VPS" />
+									</div>
+								</div>
+								<div
+									class="flex-grow-1 overflow-y-hidden d-flex align-items-center position-relative h-120">
+									<div class="p-10 w-full m-auto">
+										<p
+											class="font-size-10 text-dark-lm text-light-dm m-0 mb-5 text-truncate font-weight-medium">
+											Virtual servers
+										</p>
+										<p class="font-size-12 mt-5 mb-0">
+											With these machines we are able to host back-end code,
+											web apps, websites and more
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-lg-4 col-md-12 p-5">
+							<div class="card sponsor-section-card w-350 mw-full m-0 p-0 d-flex">
+								<div class="w-100 h-100 m-10 align-self-center">
+									<div class="w-100 h-100 rounded d-flex align-items-center justify-content-center">
+										<img src="/assets/img/licences.png" class="w-100 h-100 rounded"
+											alt="licences" />
+									</div>
+								</div>
+								<div
+									class="flex-grow-1 overflow-y-hidden d-flex align-items-center position-relative h-120">
+									<div class="p-10 w-full m-auto">
+										<p
+											class="font-size-10 text-dark-lm text-light-dm m-0 mb-5 text-truncate font-weight-medium">
+											Software & Licences
+										</p>
+										<p class="font-size-12 mt-5 mb-0">
+											There are some things that are cheaper to pay for than
+											invest the time to build ourselves
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-lg-4 col-md-12 p-5">
+							<div class="card sponsor-section-card w-350 mw-full m-0 p-0 d-flex">
+								<div class="w-100 h-100 m-10 align-self-center">
+									<div class="w-100 h-100 rounded d-flex align-items-center justify-content-center">
+										<img src="/assets/img/misc.png" class="w-100 h-100 rounded" alt="misc" />
+									</div>
+								</div>
+								<div
+									class="flex-grow-1 overflow-y-hidden d-flex align-items-center position-relative h-120">
+									<div class="p-10 w-full m-auto">
+										<p
+											class="font-size-10 text-dark-lm text-light-dm m-0 mb-5 text-truncate font-weight-medium">
+											Miscellaneous
+										</p>
+										<p class="font-size-12 mt-5 mb-0">
+											The many small expenses we have start adding up very
+											quickly 😅
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<br />
+					<div class="sidebar-divider"></div>
+
+					<div id="breakdown" class="row">
+						<div class="col-12">
+							<h4>Cost breakdown</h4>
+							<table class="table table-striped table-hover">
+								<thead>
+									<tr>
+										<th>Cost / year</th>
+										<th>Name</th>
+										<th>Description</th>
+										<th>Billed monthly</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="text-monospace">
+											<span>$ 336</span><span style="opacity: 0.5;">.00</span>
+										</td>
+										<td>Dedicated VPS - Digital Ocean Droplet</td>
+										<td>Back-end APIs & scheduled tasks & services</td>
+										<td class="text-monospace">$ &nbsp;&nbsp;28</td>
+									</tr>
+									<tr>
+										<td class="text-monospace">
+											<span>$ 288</span><span style="opacity: 0.5;">.00</span>
+										</td>
+										<td>Mastodon - Digital Ocean Droplet</td>
+										<td>NoMansSky.social Mastodon instance</td>
+										<td class="text-monospace">$ &nbsp;&nbsp;24</td>
+									</tr>
+									<tr>
+										<td class="text-monospace">
+											<span>$ 124</span><span style="opacity: 0.5;">.80</span>
+										</td>
+										<td>Automated Digital Ocean Droplet backups</td>
+										<td>
+											Full snapshots of the virtual machines, happens once a
+											week
+										</td>
+										<td class="text-monospace">
+											<span>$ &nbsp;&nbsp;10</span><span style="opacity: 0.5;">.40</span>
+										</td>
+									</tr>
+									<tr>
+										<td class="text-monospace">
+											<span>$ &nbsp;99</span><span style="opacity: 0.5;">.00</span>
+										</td>
+										<td>
+											Apple Developer Licence
+										</td>
+										<td>
+											This cost is one of the most frustrating, we pay Apple
+											for the privilege of them rejecting our iOS app updates
+										</td>
+										<td class="text-monospace">-</td>
+									</tr>
+									<tr>
+										<td class="text-monospace">
+											<span>$ &nbsp;35</span><span style="opacity: 0.5;">.00</span>
+										</td>
+										<td>
+											MEE6 bot
+										</td>
+										<td>
+											A fun Discord bot with a lot of features, hopefully one
+											day I will get the time to write these functions myself
+										</td>
+										<td class="text-monospace">-</td>
+									</tr>
+									<tr>
+										<td class="text-monospace">
+											<span>$ <span style="opacity: 0.5;">±</span>12</span><span
+												style="opacity: 0.5;">.00</span>
+										</td>
+										<td>
+											AWS S3 bucket
+										</td>
+										<td>
+											We use this for all the uploaded user images, mostly from the <a
+												href="https://nomanssky.social" target="_blank"
+												rel="noopener noreferrer">NoMansSky.Social</a> Mastodon Instance
+										</td>
+										<td class="text-monospace">
+											<span>$ &nbsp;&nbsp;<span style="opacity: 0.5;">±</span>1</span><span
+												style="opacity: 0.5;">.00</span>
+										</td>
+									</tr>
+									<tr>
+										<td class="text-monospace">
+											<span>$ &nbsp;&nbsp;8</span><span style="opacity: 0.5;">.00</span>
+										</td>
+										<td>
+											<a href="https://assistantapps.com" target="_blank"
+												rel="noopener noreferrer">
+												assistantapps.com
+											</a>
+										</td>
+										<td></td>
+										<td class="text-monospace">-</td>
+									</tr>
+									<tr>
+										<td class="text-monospace">
+											<span>$ &nbsp;&nbsp;8</span><span style="opacity: 0.5;">.00</span>
+										</td>
+										<td>
+											<a href="https://nmsassistant.com" target="_blank"
+												rel="noopener noreferrer">
+												nmsassistant.com
+											</a>
+										</td>
+										<td></td>
+										<td class="text-monospace">-</td>
+									</tr>
+									<tr>
+										<td class="text-monospace">
+											<span>$ &nbsp;&nbsp;8</span><span style="opacity: 0.5;">.00</span>
+										</td>
+										<td>
+											<a href="https://nomanssky.social" target="_blank"
+												rel="noopener noreferrer">
+												nomanssky.social
+											</a>
+										</td>
+										<td></td>
+										<td class="text-monospace">-</td>
+									</tr>
+									<tr>
+										<td class="text-monospace">
+											<span>$ &nbsp;&nbsp;8</span><span style="opacity: 0.5;">.00</span>
+										</td>
+										<td>
+											<a href="https://nmscd.com" target="_blank" rel="noopener noreferrer">
+												nmscd.com
+											</a>
+										</td>
+										<td></td>
+										<td class="text-monospace">-</td>
+									</tr>
+									<tr>
+										<td class="text-monospace">
+											<span>$ 926</span><span style="opacity: 0.5;">.80</span>
+										</td>
+										<td>Total</td>
+										<td></td>
+										<td class="text-monospace">-</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+					<br />
+					<div class="sidebar-divider"></div>
+
+					<div id="cost-saving-strats" class="row">
+						<div class="col-12">
+							<h4>Cost Saving strategies</h4>
+							<div class="row">
+								<div class="col-12 col-lg-6 p-5">
+									<details class="collapse-panel mw-full">
+										<summary class="collapse-header">
+											Making use of Github Pages when possible
+										</summary>
+										<div class="collapse-content">
+											We try to host website & web apps on Github Pages when possible. In some
+											cases it is only possible to host websites on our servers.
+										</div>
+									</details>
+								</div>
+								<div class="col-12 col-lg-6 p-5">
+									<details class="collapse-panel mw-full">
+										<summary class="collapse-header">
+											Making use of Github Actions when possible
+										</summary>
+										<div class="collapse-content">
+											We make use of the free build minutes that Github Actions provides (2000 per
+											month). With
+											these build minutes we can automate the compiling and deploying of our
+											websites. The automation saves us time and ensures that we do not introduce
+											problems during the compilation or deployment.
+										</div>
+									</details>
+								</div>
+								<div class="col-12 col-lg-6 p-5">
+									<details class="collapse-panel mw-full">
+										<summary class="collapse-header">
+											Making use of Azure DevOps & Azure Portal free tiers
+										</summary>
+										<div class="collapse-content">
+											We make use of the free build minutes that Azure DevOps provides (1800 per
+											month). These build minutes are typically used for the back-end applications
+											as it is a more private build and deployment environment. We also make use
+											of Azure App Insights for back-end logs & analytics. The Azure App Insights
+											are not completely free because of the amount of traffic that our back-end
+											receives, but we do have cost limits set to 0, so it is mostly free.
+										</div>
+									</details>
+								</div>
+								<div class="col-12 col-lg-6 p-5">
+									<details class="collapse-panel mw-full">
+										<summary class="collapse-header">
+											Cache all the static assets
+										</summary>
+										<div class="collapse-content">
+											We make use of Cloudflare to cache all of our static assets. In the
+											situations where we pay based on traffic, this really saves us money. For
+											our Mastodon instance we are using AWS S3 buckets for user uploads, we are
+											charged for the traffic of these assets.
+										</div>
+									</details>
+								</div>
+								<div class="col-12 col-lg-6 p-5">
+									<details class="collapse-panel mw-full">
+										<summary class="collapse-header">
+											Use free tier support platforms
+										</summary>
+										<div class="collapse-content">
+											To manage and support users
+										</div>
+									</details>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<br />
+					<div class="sidebar-divider"></div>
+
+
+					<div id="donations" class="row">
+						<div class="col-12">
+							<h4>Donation Options</h4>
+							<assistant-apps-donation-option-list></assistant-apps-donation-option-list>
+						</div>
+					</div>
+
+					<div class="sidebar-divider"></div>
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--  -->
+</body>
+<script defer src="/assets/js/halfmoon.min.js"></script>
+<script defer src="https://webcomp.assistantapps.com/build/bundle.js"></script>
+
+</html>

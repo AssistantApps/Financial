@@ -1,0 +1,11 @@
+html,
+body,
+.page-wrapper,
+.content-wrapper {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    font-family: 'Anuphan', sans-serif;
+}
