@@ -23,7 +23,7 @@
 
 
 
-[assistantAppsTwitter]: https://twitter.com/AssistantApps?ref=AssistantAppsGithub
+[assistantnmsTwitter]: https://twitter.com/AssistantNMS?ref=AssistantAppsGithub
 [discord]: https://assistantapps.com/discord?ref=AssistantAppsGithub
 [mastodon]: https://nomanssky.social/@assistantnms?ref=AssistantAppsGithub
 [mastodonAssistantNMS]: https://nomanssky.social/@assistantnms?ref=AssistantAppsGithub
